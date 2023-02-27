@@ -1,15 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <!-- Write your code here -->
-</body>
+  <body>
+    <h1 style="color:darkblue">HOTEL DEL LUNA (호텔 델루나)🌙</h1>
+    <img src="/movie.webp" width="800px" height="400px" />
 
+    <h2>
+      <span style="font-weight:bold; color:blue">Sơ lược bộ phim:</span>
+    </h2>
+    <div>
+      <p>
+        <dl>
+          <dt>
+            <b>Thể loại phim: </b>
+          </dt>
+          <dd>
+            <i>Fantasy, Comedy, Romantic</i>
+          </dd>
+          <dt>
+            <b>Nước sản xuất:</b>
+          </dt>
+          <dd>
+            <i>Hàn Quốc</i>
+          </dd>
+          <dt>
+            <b>Ngôn ngữ</b>
+          </dt>
+          <dd>
+            <i>Tiếng Hàn,Tiếng Việt,Tiếng Anh </i>
+          </dd>
+        </dl>
+      </p>
+  
+      <p>
+        <b>Nguồn tham khảo:</b>
+        <a href="https://en.wikipedia.org/wiki/Hotel_del_Luna" target="_blank"
+        >Link wikipedia</a>
+      </p>
+    </div>
+    
+    <br />
+    <h3>
+      <p>
+       <span style="font-weight:bold; color:blue; font-size:20px;">Danh sách các diễn viên chính</span>
+      </p>
+    </h3>
+    <style> 
+      table,td {
+        border: 2px solid black;
+        border-radius: 20px;}
+      th, td{background-color:aquamarine;}
+      </style>
+    
+      <table style="wide:50%">
+        <tr>
+          <td style="font-size: 20px;font-weight: bold;">STT</td>
+          <td style="font-size: 20px;font-weight: bold">Diễn viên chính</td>
+          <td style="font-size: 20px;font-weight: bold">Tên diễn viên</td>
+          <td style="font-size: 20px;font-weight: bold">Quốc tịch</td>
+        </tr>
+        <tr>
+          <td style="font-size: 15px;text-align: center;">1</td>
+          <td style="font-size: 15px;">Jang Man Wol🌙</td>
+          <td style="font-size: 15px;">Lee Ji Eun</td>
+          <td style="font-size: 15px;text-align: center;">Hàn Quốc</td>
+        </tr>
+        <tr>
+          <td style="font-size: 15px;text-align: center;">2</td>
+          <td style="font-size: 15px;">Gu Chan Sung👦</td>
+          <td style="font-size: 15px;">Yeo Jin Goo</td>
+          <td style="font-size: 15px;text-align: center;">Hàn Quốc</td>
+        </tr>
+        <tr>
+          <td style="font-size: 15px;text-align: center;">3</td>
+          <td style="font-size: 15px;">Ji Hyun-joon 🧏‍♂️</td>
+          <td style="font-size: 15px;">Pyo Ji-hoon</td>
+          <td style="font-size: 15px;text-align: center;">Hàn Quốc</td>
+      </table>
+ 
+    <h4>
+    <span style="font-weight:bold;font-size:20px;color:blue"></style> Cảm nhận của người xem: 
+    </h4>
+    <p>
+    <b>Mức độ <strong style="color:red"> hài lòng </strong>của người xem:</b>
+    </p>
+    <form>
+    <label for="hài lòng">Mức độ</label>
+    <select id="hài lòng" name="%" size="4" width="100px" height="50px">
+      <option value="100%">100%</option>
+      <option value="80%">80%</option>
+      <option value="50%">50%</option>
+      <option value="300%">30%</option>
+    </select><br><br>
+    <input type="submit">
+  </form>
+  <br>
+  <p>
+    <b>Ý kiến thêm về bộ phim:</b>
+  </p>
+  <form>
+    <textarea name="nhận xét" rows="10" cols="50"></textarea>
+    <br>
+    <input type="Submit">
+  </form>
+  <br>
+  
+  <h5>
+    <form>
+      <label for="Username"; style="font-size:15px"> <strong>Họ và tên người đánh giá</strong></label><br>
+      <input type="text" id="Username" name="Họ và tên"><br>
+      <label for="Password";style="font-size:15px"> <strong> Mật khẩu</strong></label><br>
+      <input type="Password" id="Password" name="Mật khẩu"><br><br>
+      <input type="Submit" value="Submit">
+    </form>
+  </h5>
+  <br>
+  
+  <h6>
+    <span style="font-weight:bold; color:blue; font-size:20px;">Các bộ phim liên quan:</span>
+  </h6>
+  <p>
+    <b>Người kiến (Ant Man) <i>(trailer)</i>:</b>
+  </p>
+    <video width="1000" height="200" controls> 
+      <source src="assets/video.mp4" type="video/mp4">
+    </video>
+  
+  </body>
 </html>
