@@ -2,7 +2,7 @@
 
 1. Use the ```<html>```, ```<head>```, and ```<body>``` tags to create the basic document structure.
 
-2. Use a ```<title>``` tag in the head section to give your webpage a descriptive title.
+2. Use a ```<title>``` tag in the head section to give your webpage a descriptive title. 
 
 3. Use at least one ```<h1>``` and one ```<h2>``` heading to organize the content on the page.
 
