@@ -1,0 +1,36 @@
+img {
+    border: 1px solid black;
+    width: 20%;
+    margin: 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+.login-form {
+    margin: 5% auto 15% auto;
+    border: 2px solid black;
+    width: 30%;
+    padding: 2%;
+    border-radius: 5px;
+}
