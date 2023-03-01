@@ -1,4 +1,4 @@
-img {
+.cau2 {
     border: 1px solid black;
     width: 20%;
     margin: 10px;
@@ -21,14 +21,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    border: 1px solid #ccc;
   }
 
-input[type=submit]:hover {
+  /* Câu 7 */
+button:hover {
     background-color: red;
 }
 
 .login-form {
-    margin: 5% auto 15% auto;
+    margin: 5% auto 5% auto;
     border: 2px solid black;
     width: 30%;
     padding: 2%;
