@@ -3,8 +3,8 @@
   color:tomato;
   font-style: oblique;
   text-transform:uppercase;
-  border-style: solid;
-
+ font-weight: 700;
+font-size: large;
 
     
 
@@ -15,4 +15,26 @@
     margin:10px;
     border: 10px solid red;
     border-radius: 10px;
+}
+#taoform{
+width: 400px;
+border-style:ridge;
+border-width: 5px;
+padding: 5px;;
+box-sizing: border-box;
+border-radius: 5px;
+background-color: antiquewhite;
+margin-bottom: 20px;
+}
+.form{
+  width:100px;
+  color:cornflowerblue;
+
+}
+.heading-2{
+  width:500px;
+  height:600px;
+  border:solid 2px coral;
+  padding:5px;
+  box-sizing: border-box;
 }
