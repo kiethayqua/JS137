@@ -1,0 +1,91 @@
+/*1*/
+div{
+    margin-left: 40%;
+    font-size: 50px;
+    color:rgb(198, 19, 79);}
+
+/*Q2*/
+.image{ 
+    margin: 10px;
+    border: 1px solid black;
+    width:250px;
+    height: 250px;}
+
+/*Q3+Q4*/
+.Q3-Q4{
+    width: 500px;
+    height:500px;
+    background-color: rgb(255, 228, 232);
+    box-sizing: content-box;
+    border:3px solid black;
+    border-radius:8px;
+    margin:20px;
+    padding:5px;
+    
+   }
+#Tên{
+    
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    font-family:arial;
+    color:black;
+    font-size:15px;
+    margin:20px;
+    padding: 5px;
+   
+}
+#Sign-in{
+    border: 5px outset thick black;
+    border-radius:2px;
+    line-height: 20px;
+    margin: 20px; 
+    padding:5px;
+}
+
+#Forget{
+    color:blue;
+    font-family: georgia;
+    font-size:15px;
+    margin:20px;
+    padding: 5px;
+    text-decoration-line: underline solid blue;
+}
+
+/*Q5+6*/
+.image-1{
+    width:800px;
+    height:500px;
+    border:2px solid black; 
+    padding: 5px;
+    border-radius:5px;
+    margin-right:80%;
+    
+}
+.Hiệu-ứng:hover{
+    background-color:rgb(213, 113, 130);}
+.Hiệu-ứng{
+    font-weight:bold;
+    font-size:20px;
+    text-align:left;} 
+.Hiệu-ứng-phụ:hover{
+    background-color: rgb(216, 112, 129);
+}
+#Font-survey:hover{
+    background-color:rgb(244, 177, 188);
+}
+#Font-survey{
+    font-family:Aria;
+    color:black;
+    font-weight:bolder;
+    font-size:15px;
+    padding:10px;
+}
+#Font-bullet:hover{
+    background-color:pink;}
+#Font-bullet{
+    list-style-type: square;
+    color:rgb(198, 19, 79);
+    font-family:Aria;
+    font-weight:lighter;
+    padding:10px;
+}
