@@ -1,0 +1,124 @@
+/* Yêu cầu thứ 1 */
+.title{
+    width: fit-content;
+    margin:auto;
+}
+
+/* Yêu cầu thứ 2 */
+.anhdep
+    img{
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin: 10px;
+    }
+
+/* Yêu cầu thứ 3 */
+
+.signinbox{
+    padding: 20px 0 28px;
+    background-color: #d8d0d071;
+    width: 450px;
+    height: 450px;
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 100px 0 100px 1200px;
+    clear:both;
+    box-shadow:  0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.signinbox label{
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signinbox input{
+    width: 90%;
+    font-size: 17px;
+    padding: 14px 16px;
+    margin: 10px 20px;
+    display: inline-block;
+    border: 1px solid #a7a8aa;
+    border-radius: 6px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+/* Yêu cầu thứ 4 */
+.signinbox input[type=submit]{
+    width: 90%;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #1877f2;
+    color:#fff;
+    font-weight: bolder;
+    font-size: x-large;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 30px 20px 10px;
+}
+
+/* Yêu cầu thứ 7 */
+.signinbox input[type=submit]:hover{
+    background-color: #4267b2;
+}
+
+.create input[type=submit]{
+    width: 45%;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #13c02a;
+    color:#fff;
+    font-weight: bolder;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 25px 130px;
+}
+
+.create input[type=submit]:hover{
+    background-color: #13aa27fb;
+}
+div.signinbox a{
+    text-decoration: none;
+    color: black;
+}
+div.signinbox a:hover{
+    text-decoration: underline;
+}
+div.signinbox p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 1px solid #dadde1;
+    padding: 10px 0 20px;
+}
+/* Yêu cầu thứ 6 */
+div.imgwithtext{
+    padding: 5px;
+    margin: 0 450px;
+}
+img{
+    border: 2px solid black;
+}
+div.imgwithtext p{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    
+
+        
