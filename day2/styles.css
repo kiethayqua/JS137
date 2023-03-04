@@ -1,9 +1,42 @@
-.center {
-    margin-left: 50%;
+* {
+    box-sizing: border-box;
 }
+/* Cau 1 */
+.center {
+    margin-left: 50% ;                 
+}
+/* Cau 2 */
 img {
-    margin:10px;
-    width:300px;
-    height:300px;
-    border: 1px black;
+    width: 300px;
+    height: 300px;                      
+    margin: 10px;
+    border: 1px black solid;
+}
+/* Cau 3 , 4 va 7 */
+.fb {
+    border-radius: 5px;
+    margin: 5px;
+    font-size:large;
+    width: 300px; height: 30px;
+}
+
+button {
+    background-color: blue;
+    color:white;
+}
+
+
+button:hover {
+    background-color: rgb(66, 1, 151);
+}
+/* Cau 6 va 8 */
+.div-padding {
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.pic {
+    border: solid 2px black;
+    width: 300px;
+    height: 150px;
 }
