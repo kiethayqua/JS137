@@ -1,0 +1,56 @@
+.img {
+  text-align: center;
+}
+.img1 {
+  margin: 10px;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+.img2 {
+  margin: 10px;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+.img3 {
+  margin: 10px;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+
+#user {
+  margin-left: 45%;
+  padding: 45px;
+  background-color: rgb(75, 203, 238);
+  width: 310px;
+  height: 180px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.button {
+  color: dodgerblue;
+  background-color: bisque;
+  font-size: large;
+  font-family: monospace;
+  border: solid hotpink;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 3px burlywood;
+}
+.button:hover {
+  background-color: aqua;
+}
+.imgdiv {
+  border: solid 2px;
+}
+
+.skate {
+  text-align: center;
+}
+.contents {
+  margin-bottom: 100px;
+}
