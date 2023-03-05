@@ -1,0 +1,15 @@
+img{
+    margin: 10px;
+    border: 1px solid black
+}
+
+button{ 
+    color: blue
+}
+
+.my-box{ 
+    background-color: white; 
+    width: max-content;
+    border: 2px solid black 
+    padding: 5px 
+}
