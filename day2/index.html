@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .center-with-margin {
+            width: fit-content;
+            margin: auto;
+        }
+
+        .image {
+            width: calc(100% / 4 - 3px);
+            height: 300px;
+        }
+
+        .login-box-child {
+            display: block;
+            width: 300px;
+            height: 48px;
+            border-radius: 8px;
+        }
+
+        .input {
+            padding-left: 16px;
+            margin-bottom: 8px;
+        }
+
+        .button {
+            background-color: #1877f2;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #166fe5;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box-wrapper {
+            padding: 16px;
+            border: 1px solid black;
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-with-margin">Hello World!</div>
+    <img class="image"
+        src="https://akns-images.eonline.com/eol_images/Entire_Site/2017210/rs_600x600-170310083229-600.avatar-1.31017.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" />
+    <img class="image"
+        src="https://akns-images.eonline.com/eol_images/Entire_Site/2017210/rs_600x600-170310083229-600.avatar-1.31017.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" />
+    <img class="image"
+        src="https://akns-images.eonline.com/eol_images/Entire_Site/2017210/rs_600x600-170310083229-600.avatar-1.31017.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" />
+    <img class="image"
+        src="https://akns-images.eonline.com/eol_images/Entire_Site/2017210/rs_600x600-170310083229-600.avatar-1.31017.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" />
+
+    <div class="login-box-wrapper">
+        <form>
+            <input class="login-box-child input" placeholder="Email address or phone number">
+            <input class="login-box-child input" placeholder="Password">
+            <div class="login-box-child button center">Log in</div>
+        </form>
+    </div>
+</body>
+
+</html>
