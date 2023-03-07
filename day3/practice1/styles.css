@@ -23,3 +23,28 @@
     border: 1px solid black;
     padding: 1;
 }
+
+#cell-block1 {
+    right: 0px;
+    bottom: 0px;
+}
+
+#cell-block2 {
+    right: 0px;
+    top: 0px;
+}
+
+#cell-block3 {
+    Left: 0px;
+    bottom: 0px;
+}
+
+
+#cell-block4 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+        /*dịch chuyển theo kích thước của chính phần tử đó */
+}
+
+.header {}
