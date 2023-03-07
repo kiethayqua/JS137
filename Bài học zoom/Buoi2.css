@@ -1,0 +1,39 @@
+/*Độ ưu tiên*/
+
+/*0,0,0 */
+*{
+    color: cornflowerblue;
+}
+
+/*0,0,1*/
+div{
+    color:brown;
+} /*click vào div có selector specificity:0,0,1*/
+
+/*0,1,0*/
+/* .text-brown{
+    color:red;
+} */
+
+/*1,0,0*/
+/* #my-div{
+    color:black;
+} */
+
+/*Những thuộc tính-giá trị-định dạng text*/
+#test-text{
+    font-size:40px; /*cỡ chữ*/
+    font-style:italic;/*kiểu chữ*/
+    text-decoration: underline; /*trang trí cho chữ*/
+    font-family: Arial, Helvetica, sans-serif;/*các font chữ phía sau để xác định theo độ ưu tiên*/
+    text-transform: uppercase; /*biến đổi chữ*/
+}
+/*Những thuộc tính-giá trị-định dạng box model*/
+#my-box{
+    background-color: pink;
+    width:50%;
+    height:50%;
+    border:5px solid black;
+    border-radius: 5px;
+    padding:50px;
+}
