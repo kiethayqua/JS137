@@ -25,6 +25,9 @@ a {
     padding: 10px;
     background-color: #ddd;
     margin-bottom: 32px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top:0; 
 }
 
 .menu {
@@ -62,8 +65,8 @@ a {
     font-weight: bold;
 }
 
-.click-to-top-btn {
+.click-to-top-btn { 
     width: 50px;
     height: 50px;
-    background-color: #aaa;
+    background-color: red; 
 }
