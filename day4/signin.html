@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Nova Mono', monospace;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left-wrapper {
+            width: 50%;
+            height: 100vh;
+            background-color: #FFF7DF;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        .form-wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .title-wrapper {
+            display: flex;
+            justify-content: center;
+        }
+
+        .input {
+            padding-left: 20px;
+            width: 420px;
+            height: 60px;
+            border: 1px solid #EFEFEF;
+            border-radius: 100px;
+        }
+
+        .mb8 {
+            margin-bottom: 8px;
+        }
+
+        .go-to-sign-up {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .mb16 {
+            margin-bottom: 16px;
+        }
+
+        .button-color {
+            background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+            color: white;
+            border-width: 0;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .mb32 {
+            margin-bottom: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-wrapper center">
+            <div class="form-wrapper">
+                <div class="center">
+                    <span>GOGE AFRICA</span>
+                    <img alt="" class="icon" src="./assets/Subtract.png">
+                </div>
+                <div class="mb8 center">Sign in to your account to continue.</div>
+                <form style="display: flex; flex-direction: column;">
+                    <input placeholder="Full Name" class="input mb8">
+                    <input placeholder="Password" type="password" class="input mb16">
+                    <div class="go-to-sign-up mb32">
+                        <span>Don’t have an account?</span>
+                        <a href="#">Sign up</a>
+                    </div>
+                    <div class="center input button-color">Sign In</div>
+                </form>
+            </div>
+
+        </div>
+        <div class="right-wrapper">
+
+        </div>
+    </div>
+</body>
+
+</html>
