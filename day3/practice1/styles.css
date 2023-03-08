@@ -1,25 +1,45 @@
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .table-wrapper {
-    position: relative;
+  position: relative;
 }
 
 .cell {
-    width: 30px;
-    height: 30px;
-    background-color: black;
+  width: 30px;
+  height: 30px;
+  background-color: black;
 }
 
 .missing-cell {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 .cell-highlight {
-    background-color: yellow;
-    position: absolute;
-    border: 1px solid black;
-    padding: 1;
+  background-color: yellow;
+  position: absolute;
+  border: 1px solid black;
+  padding: 1;
+}
+
+#cell-block1 {
+  bottom: 0;
+  right: 0;
+}
+#cell-block2 {
+  top: 0;
+  right: 0;
+}
+
+#cell-block3 {
+  bottom: 0;
+  left: 0;
+}
+
+#cell-block4 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

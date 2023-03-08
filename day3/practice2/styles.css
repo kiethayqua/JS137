@@ -1,69 +1,77 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .container {
-    padding: 0 100px;
-
+  padding: 0 100px;
 }
 
 .header {
-    padding: 10px;
-    background-color: #ddd;
-    margin-bottom: 32px;
+  padding: 10px;
+  background-color: #ddd;
+  margin-bottom: 32px;
+  position: sticky;
+  top: 0%;
 }
 
 .menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
 }
 
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-button {
-    flex: 1;
+  flex: 1;
 }
 
 .link {
-    height: 50px;
-    width: 80px;
+  height: 50px;
+  width: 80px;
 }
 
 .link:hover {
-    color: orange;
+  color: orange;
 }
 
 .footer {
-    margin-top: 32px;
-    padding: 20px;
-    background-color: gray;
+  margin-top: 32px;
+  padding: 20px;
+  background-color: gray;
+  position: sticky;
+  bottom: 0%;
 }
 
 .footer p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .click-to-top-btn {
-    width: 50px;
-    height: 50px;
-    background-color: #aaa;
+  width: 50px;
+  height: 50px;
+  background-color: #aaa;
+  cursor: pointer;
+}
+
+.click-to-top-btn:hover {
+  background-color: gray;
 }
