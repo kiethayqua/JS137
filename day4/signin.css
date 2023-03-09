@@ -1,4 +1,5 @@
 .container-trai{
+    position:relative;
     background-color:#FFF7DF;
     width: 50%;
     height: 100vh;
@@ -11,6 +12,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family:'Press Start 2P', cursive;
+
 }
 
 .icon{
@@ -35,4 +38,69 @@
  border-color: #EFEFEF;
  padding: 20px;
  
+}
+.mb8{
+    margin-bottom:8px;
+}
+.mb16{
+    margin-bottom:16px;
+}
+.form-column-signup{
+    align-self: flex-end;
+}
+.bottom{
+    width: 423px;
+    height: 60px;
+    border: 1px, solid;
+    border-radius: 100px;
+    border-color: #EFEFEF;
+    background-color: #FFC000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFEFEF;
+}
+.mb34{
+    margin-bottom: 34px;
+
+}
+
+.mb28{
+    margin-bottom:28px;
+}
+
+.mb37{
+    margin-bottom:28px;
+}
+.AFRICA{
+  background:linear-gradient(to right,#FFC000 0%,#FF8A00 100%);
+
+    margin-left:6px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.bongbong1{
+    position:absolute;
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    background-color: #FF8A00;
+    bottom: 68px;
+    left:243px;
+}
+.bongbong2{
+    position:absolute;
+    width:22px;
+    height:22px;
+    border-radius: 50%;
+    background-color:green;
+    bottom: 116px;
+    left:137px;
+}
+.hinh1{
+    position:absolute;
+    width:140px;
+    height:150px;
+    border-radius: 50%;
+    top:10%;
 }
