@@ -1,0 +1,25 @@
+.container-trai{
+    background-color:#FFF7DF;
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.icon{
+    width: 36px;
+    height: 40px;
+}
+
+.contain-Goge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
