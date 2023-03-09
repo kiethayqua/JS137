@@ -23,3 +23,16 @@
     justify-content: center;
     align-items: center;
 }
+.form-column{
+    display:flex;
+    flex-direction: column;
+}
+.input{
+ width: 423px;
+ height: 60px;
+ border: 1px, solid;
+ border-radius: 100px;
+ border-color: #EFEFEF;
+ padding: 20px;
+ 
+}
