@@ -109,7 +109,7 @@
     height:100vh;
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content:flex-end;
     align-items: center;
 }
 .entire-container{
@@ -133,16 +133,27 @@
     font-size: 14;
     width: 299px;
     height: 52px;
+    margin-bottom: 33px;
 }
 .bongbong4{
     width: 19px;
     height: 19px;
     border-radius: 50%;
     background-color: white;
+    margin-right: 9px;
 }
 .bongbong5{
     width: 29px;
     height: 29px;
     border-radius: 50%;
     background-color:#EFEFEF
+}
+.bongbong-4-5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-light fa-lightbulb{
+    width:15px;
+    height:18px;
 }
