@@ -23,3 +23,24 @@
     border: 1px solid black;
     padding: 1;
 }
+
+#cell-block1 {
+    right: 0;
+    bottom: 0;
+}
+
+#cell-block2 {
+    right: 0;
+    top: 0;
+}
+
+#cell-block3 {
+    left: 0;
+    bottom: 0;
+}
+
+#cell-block4 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
