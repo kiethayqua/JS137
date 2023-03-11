@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
+.container{
+    display:flex
+}
+.left-wrapper{
+    width: 50%;
+    height: 100vh;
+    background-color: #FFF7DF;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.input{
+    padding: 0 20px;
+    width: 423px;
+    height: 60px;
+    border: 1px solid #EFEFEF;
+    border-radius: 100px;
+}
+.input-column{
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+.to-sign-up{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-color{
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    border-width: 0;
+    color: white;
+    cursor: pointer;
+}
+.font-nova{
+    font-family: 'Proxima Nova', sans-serif;
+}
+.mb8{
+    margin-bottom: 8px;
+}
+.mb16{
+    margin-bottom: 16px;
+}
+.mb32{
+    margin-bottom: 32px;
+}
+.text-color{
+    color: #FFC000;
+}
+.textsize14{
+    font-size: 14px;
+}
+.textsize22{
+    font-size: 22px;
+}
+.alignb{
+    display: flex;
+    align-items: flex-end;
+}
+.rela{
+    position: relative;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    width: 99%;
+    height: 100%;
+}
+.grid-item{
+    border: 1px solid #bdc7de93;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+.container-decor{
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.container-decor2{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.circle-l{
+    width: 40px; 
+    height: 40px; 
+}
+.circle-m{
+    width: 32px;
+    height: 32px;
+}
+.circle-s{
+    width: 25px;
+    height: 25px;
+}
+.circle{
+    border-radius: 50%;
+    position: absolute;
+}
+.decor-left{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    border-width: 0;
+    position: absolute;
+    top: -220px;
+    left: -150px;
+    border-radius: 25%;
+    transform: rotate(25deg);
+}
+.right-wrapper{
+    width: 50%;
+    height: 100vh;
+    background-color: #C4C4C4;
+}
+.decor-right{
+    background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+    border-width: 0;
+    bottom: 160px;
+
+}
+.text-wrapper{
+    width: 350px;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+}
+.text-wrapper2{
+    width: 300px;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 80px;
+}
+.page-button{
+    width: 90px;
+    height: fit-content;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 20px;
+}
