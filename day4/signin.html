@@ -21,7 +21,7 @@
         }
 
         .left-wrapper {
-            width: 50%;
+            flex: 1;
             height: 100vh;
             background-color: #FFF7DF;
         }
@@ -79,6 +79,66 @@
         .mb32 {
             margin-bottom: 32px;
         }
+
+        .right-wrapper {
+            display: flex;
+            flex: 1;
+            background-color: #C4C4C4;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .light-icon {
+            position: absolute;
+            top: 8px;
+            left: 12px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .light-icon-bg {
+            position: relative;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(253.58deg, #FFC000 1.55%, #FF8A00 95.8%);
+            margin-bottom: 24px;
+        }
+
+        .content {
+            width: 300px;
+            margin-bottom: 24px;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .prev-btn {
+            width: 20px;
+            height: 20px;
+            background-color: #fff;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .next-btn {
+            width: 30px;
+            height: 30px;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+        .bottom-btn-wrapper {
+            display: flex;
+            align-items: center;
+        }
     </style>
 </head>
 
@@ -104,7 +164,21 @@
 
         </div>
         <div class="right-wrapper">
-
+            <div class="right-content">
+                <div class="light-icon-bg">
+                    <img class="light-icon" alt="light" src="./assets/light.png">
+                </div>
+                <div class="content">Do you know you can easily choose your mode of learning on this platform? Hover
+                    aboard to know more</div>
+                <div class="bottom-btn-wrapper">
+                    <div class="prev-btn center">
+                        <img alt="prev" src="./assets/prev.png">
+                    </div>
+                    <div class="next-btn center">
+                        <img alt="next" src="./assets/next.png">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
