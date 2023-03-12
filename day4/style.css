@@ -78,6 +78,8 @@
     height: 24px;
     border-radius: 50%;
     display: block;
+    position: absolute;
+    bottom: 180px;
 }
 
 .mini-play-button {
@@ -97,8 +99,16 @@
 .text {
     width: calc(100%/3);
     text-align: center;
+    position: absolute;
+    bottom: 100px;
 }
 
-.asd {
-    align-content: flex-end;
+.bottom {
+    width: 60px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
 }
