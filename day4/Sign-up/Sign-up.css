@@ -10,7 +10,7 @@
   }
   .left-box-wrapper {
     width: 50%;
-    height: 1000vh;
+    height: 100vh;
     background-color: #fff7df;
   }
   .left-form-wrapper {
@@ -59,7 +59,7 @@
   .right-box-wrapper{
     display: flex;
     width:50%;
-    height:1000vh;
+    height:100vh;
     background-color: rgba(196, 196, 196, 1);
   }
   .right-box-center {
@@ -71,28 +71,13 @@
     flex-direction: column;
     justify-content: center;
   }
-  .hinh-tron1{
-    position: relative;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-  }
-  .hinh-tron-color1 {
-    background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
-  }
-  .hinh-tron-color2{
-    background-color: white;
-  }
   .mb22{
     margin-bottom: 22px;
   }
-
-  .bong-den{
-    position: absolute;
-    width: 30px;
-    height:30px;
-    bottom:-2px;
-    right: -2px;
+  .picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .box-text{
     width: 300px;
@@ -101,28 +86,6 @@
     color: black;
     flex-wrap: wrap;
   }
-  .hinh-tron2 {
-    position:relative;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  .triangle {
-    position: absolute;
-    width: 10px;
-    height: 10px;
- }
- .triangle-position1{
-    top: 10px;
-    left: 10px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
- }
- .triangle-position2{
-  top: 20px;
-  left: 20px;
-}
 .mr10{
   margin-right: 10px;
 }
