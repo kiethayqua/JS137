@@ -14,13 +14,13 @@
 }
 
 .left-side {
-    width: 50%;
+    flex: 1;
     height: 100vh;
     background-color: #FFF7DF;
 }
 
 .right-side {
-    width: 50%;
+    flex: 1;
     height: 100vh;
     background-color: #C4C4C4;
 }
@@ -85,7 +85,3 @@
     border-radius: 40px;
 }
 
-.space-center {
-    display: flex;
-    align-items: center;
-}
