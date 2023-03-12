@@ -58,7 +58,7 @@
   }
   .right-box-wrapper{
     display: flex;
-    width:50%;
+    flex:1;
     height:100vh;
     background-color: rgba(196, 196, 196, 1);
   }
