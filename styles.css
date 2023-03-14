@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: ;
+}
+.heading-blue{
+    height:10%;
+    background-color:aqua;
+}
+.container-bottom{
+    height:40%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-parahgrah{
+    height:40%;
+    background-color:white;
+    display: flex;
+    justify-content:center;
+    
+
+}
+.heading-black{
+    height:10%;
+    background-color: dimgray;
+}
+.contain{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.button{
+    color: rgb(77, 153, 185);
+    border: 1px solid rgb(77, 153, 185);
+    width: 100px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(77, 153, 185);
+    color:white;
+}
+
+.hinh1{
+    background-color:blue;
+    
+}
+.hinh2{
+    background-color:brown;
+    
+}
+.hinh3{
+    background-color:aquamarine;
+    
+}
+.hinh4{
+    background-color:orange;
+    
+}
+.parahgrah-1{
+    width: 400px;
+}
+.parahgrah-2{
+    width: 400px;
+}
+.parahgrah-3{
+    width: 400px;
+}
+.parahgrah-4{
+    width: 400px;
+}
+
+.fontweight{
+    font-weight:700;
+
+}
+.margin5{
+    margin:5px;
+}
+@media screen and (max-width: 768px){
+    .container-bottom{
+        display:none;
+    }
+    .heading-blue{
+        display:none;
+    }
+    .heading-black{
+        display:none;
+    }
+    .container-parahgrah{
+        height:100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+}
