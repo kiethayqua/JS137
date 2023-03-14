@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        flex-direction: column;
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .description {
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+      }
+      .button {
+        width: 200px;
+        height: 80px;
+        border-radius: 8px;
+        border: 2px solid red;
+        color: black;
+      }
+      .button:hover {
+        background-color: pink;
+        color: black;
+      }
+      .top-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      @media screen and (max-width: 941px) {
+        .top-wrapper {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container center">
+      <div class="top-wrapper">
+        <p class="description">
+          Loreamsdsdkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+        </p>
+        <div class="button center">Learn more</div>
+      </div>
+    </div>
+  </body>
+</html>

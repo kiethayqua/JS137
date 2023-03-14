@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+.header {
+    background-color:#3385ff;
+    position: sticky;
+    height: 60px;
+    top:0;
+    width: 100%;
+    background-image: url(./image.jpg);
+}
+.footer {
+    background-color: #404040;
+    position: absolute;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title {
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid DodgerBlue;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: DodgerBlue;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #0073e6;
+  }
+  .content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 20px;
+  }
+  .content-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content-note {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 20px;
+  }
+@media screen and (max-width:640px) {
+  .header{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+  .title{
+    display: none;
+  }
+  .button{
+    display: none;
+  }
+  .content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
