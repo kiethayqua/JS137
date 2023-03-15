@@ -1,0 +1,51 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.container{ 
+    display:flex; 
+}
+
+.left-grabber{ 
+    width:50%; 
+    height:100%;
+    background-color: red;
+}
+
+.center{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-grabber{
+    display: flex;
+    justify-content: center;
+}
+
+.input{ 
+    width: 420px; 
+    height: 60px; 
+    border: 1px solid; 
+    border-radius: 10px;
+}
+
+.mb8{ 
+    margin-bottom: 8;
+}
+
+.go-to-sign-up{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mb16{ 
+    margin-bottom:16px; 
+}
