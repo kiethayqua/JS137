@@ -32,8 +32,7 @@ console.log(a + b);
 console.log(a - b);
 
 // Bình phương số a và in ra kết quả
-let aaa = a ** 2;
-console.log(aaa);
+console.log(a ** 2);
 
 // Khai báo biến c = 5 và chia lấy dư c với 2 sau đó in ra kết quả
 let c = 5;
