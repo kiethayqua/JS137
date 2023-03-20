@@ -35,3 +35,4 @@ else{
 /*
 Viết cấu trúc switch-case kiểm tra số chẳn và lẻ
 */
+

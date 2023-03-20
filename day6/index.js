@@ -53,5 +53,14 @@
 // Giải thích tại sao x && !y lại cho ra kết qủa true
 
 
+//prompt(" khi nào giàu")
 
-
+let person= prompt("Mời bạn nhập tên của mình");
+let text="";
+if(person==null || person==''){
+    text="huhu bạn không muốn nhập tên hả"
+}
+else{
+    text="Xinchao" + person +"!";
+}
+console.log(text);
