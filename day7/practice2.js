@@ -7,54 +7,42 @@
 //     console.log(i);
 //  }
 // Bài 3: Cho số nguyên n bất kì, in các số chẵn từ 1..n
-// let n =10;
-// let result=0;
-// for(i=0;i<=n;i++){
-//     if(i%2===0){
-//         console.log(i)
+// let n = 10;
+// for(i=0;i<n;i++){
+//     if(i%2==0){
+//         console.log(i);
 //     }
 // }
 // Bài 4: Cho số nguyên n bất kì, in các số lẻ từ 1..n
-// let n =20;
-// for(i=0;i<=20;i++){
+// let n=10
+// for(i=0;i<10;i++){
 //     if(i%2!=0){
-//         console.log(i)
+//         console.log(i);
 //     }
 // }
 // Bài 5: Cho số nguyên n bất kì, tính tổng các số từ 1..n
-// 1+2+3+4+5+6+7
-// let result=0;
-// let n=7;
-// for(i=0;i<=n;i++){
+// 1+2+3+4+5+6+7+8+9+10
+// let result=0
+// let n= 10
+// for(i=0;i<=10;i++){
 //     result=result+i;
 // }
 // console.log(result);
-
 // Bài 6: Cho số nguyên n. Tính giá trị biểu thức S= 1.2 + 2.3 + 3.4 + ... + n(n+1).
-//n=7= 1.2 + 2.3 + 3.4 + 4.5 + 5.6 + 6.7 + 7.8
-//
+// let n=10;
 // let result=0;
-// let n=7;
-// for(let i=1;i<=7;i++){
-//     result=result+i*(i+1);
-//     console.log(result);
+// for(i=1;i<=n;i++){
+//     result=result+i*(i+1)
 // }
-// console.log(result);
-//vòng lặp 1 :result= 1 + 1*(1+1)=3
-//vòng lặp 2 :result= 3 + 2*(2+1)=9
-//console.log(result6);
 // Bài 7: Cho các số nguyên n và m bất kì, tính n^m VD: 2^3 = 8
-// 5*5*5*5*5*5*5
+//2*2*2
+// let n=2
+// let m=3
 // let result=1;
-// let n=5;
-// let m=7;
-// for(let i=0;i<=m;i++){
-//     result=result*n;
-//     console.log(result);
+// for(i=1;i<=m;i++){
+//     result=result*n
 // }
 // console.log(result);
-
-
 // Bài 8: Cho số nguyên n bất kì, tính n! VD: 3! = 1*2*3 = 6
 // let n=3;
 // let result=1;
@@ -87,3 +75,10 @@
 // Bạn đã đoán đúng!
 // Số được chọn là: <number>
 // Số lần bạn đoán là: <number>
+let nhapSo=Number(prompt("Mời bạn nhập số"));
+if(nhapSo<=9){
+    alert("Bạn đã nhập đúng xin chúc mừng");
+}
+else{
+    alert("Bạn đã nhập sai vui lòng nhập lại")
+}

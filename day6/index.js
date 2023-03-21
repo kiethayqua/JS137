@@ -55,12 +55,176 @@
 
 //prompt(" khi nào giàu")
 
-let person= prompt("Mời bạn nhập tên của mình");
-let text="";
-if(person==null || person==''){
-    text="huhu bạn không muốn nhập tên hả"
+// let person= prompt("Mời bạn nhập tên của mình");
+// let text="";
+// if(person==null || person==''){
+//     text="huhu bạn không muốn nhập tên hả"
+// }
+// else{
+//     text="Xinchao" + person +"!";
+// }
+// console.log(text);
+
+let myString = "lam sao biet khi nào sao"
+console.log(myString.lastIndexOf("sao"));
+console.log(myString.length)
+console.log(myString.slice(8,12))
+let hao= " hoc mindx truong nay day nhanh qua"
+console.log(hao.slice(11));
+let duAn="                   hoc js tại mindx nhung js kho qua                  "
+console.log(duAn.replace(/js/g,"Javascrip"));
+console.log(duAn.toUpperCase());
+console.log(duAn);
+duAn=duAn.trim();
+console.log(duAn);
+console.log(duAn.split(" "));
+
+let number=20;
+let number2= number / "fh";
+console.log(number2);
+console.log(isNaN(number2));
+number= number.toString();
+console.log(number);
+number=Number(number);
+console.log(number)
+console.log(typeof(number));
+let Pi= 305.238974;
+console.log(Pi.toFixed(3))
+
+
+console.log(myString.slice(0,3));
+let badmintonRacket=[
+    "Yonex",
+    "Mizuno",
+    "Lining",
+    "Victor",
+]
+console.log(typeof(badmintonRacket))
+console.log(badmintonRacket[2]);
+console.log(badmintonRacket.length);
+console.log(badmintonRacket.toString())
+console.log(badmintonRacket.join(""))
+
+console.log(badmintonRacket.pop())
+console.log(badmintonRacket);
+//Array
+let truongHoc=[
+    "MindX",
+    "Trần Khai Nguyên",
+    "Kim Đồng",
+]
+
+//String
+let truongHoc1="Tran khai nguyên";
+
+//Array
+console.log(truongHoc.pop());
+console.log(truongHoc);
+
+//String
+console.log(truongHoc1.slice(3,5));
+console.log(truongHoc1)
+console.log(truongHoc.push("Vihao","Vihien"));
+console.log(truongHoc);
+console.log(truongHoc.shift())
+console.log(truongHoc)
+console.log(truongHoc.pop())
+console.log(truongHoc.pop())
+console.log(truongHoc.pop())
+console.log(truongHoc)
+console.log(truongHoc.length)
+let family=[
+    "Ba",
+    "Me",
+    "Anh",
+    "Chi",
+]
+console.log(family.pop());
+console.log(family);
+console.log(family.shift());
+console.log(family);
+console.log(family.shift());
+console.log(family.shift());
+console.log(family);
+console.log(family.shift());
+console.log(family.unshift("Ba", "Me"));
+console.log(family);
+console.log(family.push("Anh","Chi"));
+console.log(family.splice(2,0,"Em"));
+console.log(family);
+console.log(family.splice(2,2));
+console.log(family);
+console.log(family.toString());
+console.log(family);
+
+let stringCuatoi ="co cai nay cai kia";
+console.log(stringCuatoi.split(' '));
+console.log(stringCuatoi);
+console.log(typeof stringCuatoi)
+
+console.log(family);
+console.log(Array.isArray(family));
+console.log(family.splice(1,1,"Anh"));
+console.log(family);
+
+let family2=[
+    "1",
+    "2",
+    "3",
+    "4",
+]
+console.log(family2.splice(1,1,"200"));
+console.log(family2);
+
+// alert("Chào các bạn");
+// function thongBao(cacbanoi){
+//     alert(cacbanoi);
+// }
+
+// thongBao("ádasdasd");
+// thongBao()
+
+// function thongbao(tinnhan){
+//     console.log(tinnhan)
+// };
+
+// thongbao("vihao");
+// thongbao("vihao 2");
+
+// function vidu (nhapten){
+// console.log(nhapten);
+// }
+// vidu('HAO');
+
+// function thongBao(thongBaoalert, text){
+//     alert(thongBaoalert);
+//     console.log(text);
+
+// }
+// thongBao("chào bạn", "Hào");
+// thongBao("2")
+
+// function tinhToan(x,y,z,l,j){
+//     console.log(arguments.length);
+//     console.log("kết quả của 6 số là" + (x+y+z+l+j)/6);
+// }
+// tinhToan(6,7,8,9,10);
+// console.log("Anh oi", "anh oi", "anh oi");
+
+// alert("vi sao");
+
+// function tinhTong(){
+//     console.log(arguments);
+//     console.log(1+2);
+// }
+// tinhTong(1,2,3,4,5);
+
+function tinhTong(){
+console.log(arguments)
+for( let a of arguments){
+    console.log(a);
 }
-else{
-    text="Xinchao" + person +"!";
 }
-console.log(text);
+tinhTong("Hào","Kiệt","Hải","Duy")
+
+
