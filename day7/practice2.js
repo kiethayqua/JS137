@@ -75,10 +75,20 @@
 // Bạn đã đoán đúng!
 // Số được chọn là: <number>
 // Số lần bạn đoán là: <number>
-let nhapSo=Number(prompt("Mời bạn nhập số"));
-if(nhapSo<=9){
-    alert("Bạn đã nhập đúng xin chúc mừng");
-}
-else{
-    alert("Bạn đã nhập sai vui lòng nhập lại")
+// let nhapSo=Number(prompt("Mời bạn nhập số"));
+// if(nhapSo<=9){
+//     alert("Bạn đã nhập đúng xin chúc mừng");
+// }
+// else{
+//     alert("Bạn đã nhập sai vui lòng nhập lại");
+//     prompt("Bạn nhập lại số");
+// }
+let nhapSo;
+while(true){
+    nhapSo=Number(prompt("Moi ban nhap so"));
+    if(nhapSo<=9){
+        alert("Ban da nhap dung")
+        break;
+    }else{alert("Ban da nhap sai so vui long nhap lai");}
+
 }
