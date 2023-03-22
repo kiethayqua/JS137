@@ -56,15 +56,15 @@
 // ***
 // **
 // *
-// let i;
-// let j;
-// let char=" ";
-// for(i=0;i<5;i++){
-//     for(j=0;j<i;j++){
-//         char+="*";
-//         console.log(char);
-//     }
-// }
+ let i;
+ let j;
+ let char=" ";
+ for(i=0;i<5;i++){
+     for(j=0;j<i;j++){
+         char+="*";
+         console.log(char);
+     }
+ }
 
 // Bài 10: Xây dựng chương trình game đoán số từ 0..9(số được random)
 // - Cho phép nhập từ trình duyệt với nội dung - 'Nhập số: '
@@ -83,12 +83,12 @@
 //     alert("Bạn đã nhập sai vui lòng nhập lại");
 //     prompt("Bạn nhập lại số");
 // }
-let nhapSo;
-while(true){
-    nhapSo=Number(prompt("Moi ban nhap so"));
-    if(nhapSo<=9){
-        alert("Ban da nhap dung")
-        break;
-    }else{alert("Ban da nhap sai so vui long nhap lai");}
+// let nhapSo;
+// while(true){
+//     nhapSo=Number(prompt("Moi ban nhap so"));
+//     if(nhapSo<=9){
+//         alert("Ban da nhap dung")
+//         break;
+//     }else{alert("Ban da nhap sai so vui long nhap lai");}
 
-}
+// }
