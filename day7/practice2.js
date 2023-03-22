@@ -11,7 +11,7 @@
 // Bài 3: Cho số nguyên n bất kì, in các số chẵn từ 1..n
 // const n = 3;
 // for (let i = 1; i <= n; i++){
-//   if(i%2 == 1){
+//   if(i%2 === 0){
 //     console.log(i);
 //   }
 // }
@@ -64,10 +64,13 @@
 // row: 5
 // column: 4
 // size : 5
-
-
-
-
+const  row = 5;
+const column; 
+for (let i = column; i <= column; i++ );{
+    for (let j = row; j <= row - 1; j++ )
+        print("*")
+    print ("\n")
+}
 
 // Bài 10: Xây dựng chương trình game đoán số từ 0..9(số được random)
 // - Cho phép nhập từ trình duyệt với nội dung - 'Nhập số: '
