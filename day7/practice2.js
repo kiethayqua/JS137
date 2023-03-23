@@ -91,16 +91,15 @@
 // Số được chọn là: <number>
 // Số lần bạn đoán là: <number>
 
-// const i = Math.floor(Math.random() * 10);
-// let a = Number(prompt('Nhập số trong khoảng 1-9:'));
-// let count = 1;
+const randomNumber = Math.floor(Math.random() * 10);
+let guess = Number(prompt('Nhập số trong khoảng 1-9:'));
+let count = 1;
 
-
-// while (a != i){
-//     count++;
-//     let b = Number(prompt('Bạn đã đoán sai! Thử lại:'));
-//     a = b;
-// }
-//     console.log('Bạn đã đoán đúng!');
-//     console.log('Số được chọn là:'+ a);
-//     console.log('Số lần bạn đoán là:'+ count);
+while (guess !== randomNumber){
+    count++;
+    guess = Number(prompt('Bạn đã đoán sai! Thử lại:'));
+    
+}
+    console.log('Bạn đã đoán đúng!');
+    console.log('Số được chọn là:'+ guess);
+    console.log('Số lần bạn đoán là:'+ count);
