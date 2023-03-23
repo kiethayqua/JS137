@@ -1,9 +1,10 @@
 // tạo biến age với giá trị tuổi của bạn
-
+let myAge = 25;
 // tạo biến name với giá trị là tên của bạn
-
+let myName = "Nguyen Thanh Dat";
 // tạo biến greeting với giá trị là "Hello, My name is <name>, <age> years old!", in ra kết quả
-
+let greeting = "Hello, my name is " + myName + " , I'm " + myAge + " years old!"
+console.log(greeting);
 // Kiểm tra trong biến greeting có tồn tại từ "Hello" hay không, không phân biệt chữ hoa chữ thường, in ra kết quả
 
 // Tạo biến sayHi thay thể "Hello" trong greeting thành "Hi", in ra màn hình
