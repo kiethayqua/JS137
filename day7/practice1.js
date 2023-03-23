@@ -44,15 +44,15 @@ else if (myAge > 65) {
 /*
 Viết cấu trúc switch-case kiểm tra số chẳn và lẻ
 */
-const numberInput = Number(prompt("Nhập số: "));
-switch (numberInput % 2) {
-    case 0:
-        alert(`${numberInput} là số chẳn`);
-        break;
-    case 1:
-        alert(`${numberInput} là số lẻ`);
-        break;
-    default:
-        alert("Không phải số hoặc không phải là số nguyên");
-        break;
-}
+// const numberInput = Number(prompt("Nhập số: "));
+// switch (numberInput % 2) {
+//     case 0:
+//         alert(`${numberInput} là số chẳn`);
+//         break;
+//     case 1:
+//         alert(`${numberInput} là số lẻ`);
+//         break;
+//     default:
+//         alert("Không phải số hoặc không phải là số nguyên");
+//         break;
+// }
