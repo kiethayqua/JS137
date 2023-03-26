@@ -6,7 +6,15 @@
 // console.log(sum);
 
 // Remove duplicates from an array. !!!!!
+// C1:
 // let arr2 = [1, 2, 2, 4, 5, 5, 6];
+// const newArr = [];
+// arr2.forEach((num) => {
+//     if (!newArr.includes(num)) newArr.push(num);
+// });
+// console.log(newArr);
+
+// C2:
 // let uniquearr2 =[...new Set(arr2)];
 // console.log (uniquearr2);
 
@@ -44,7 +52,7 @@
 
 // Find the common elements between two arrays.  !!!!
 // const arr7 = [1, 2, 3, 5, 9];
-// const arr8 = [2, 4, 1, 9, 0];
+// const arr8 = [2, 4, 1, 9, 0, 8, 9, 10];
 // let newArr = [];
 
 // for (let i = 0; i < arr7.length; i++)
