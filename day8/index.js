@@ -1,9 +1,14 @@
 // Find the sum of all elements.
-// const arr1 = [1, 2, 3, 4, 5];
+const arr1 = [1, 2, 3, 4];
+// C1:
 // let sum = 0;
 // for (let i = 0; i < arr1.length; i++)
 // sum += arr1[i];
 // console.log(sum);
+// C2: using reduce method
+// console.log(arr1.reduce((prev, cur) => {
+//     return prev + cur;
+// }, 0));
 
 // Remove duplicates from an array. !!!!!
 // C1:
