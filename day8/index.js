@@ -8,12 +8,23 @@ const arr1 = [1, 2, 3, 4, 5];
 
 // Remove duplicates from an array.
 let arr2 = [1, 2, 2, 4, 5, 5, 6];
-
+// arr2.splice(4,2);
+// console.log(arr2)
 // Find the index of a specific element in an array.
 const arr3 = ['iOS', 'Android', 'WindowPhone'];
+ //arr3.forEach(function(index){console.log(index)})
+ 
 
 // Reverse an array.
 const arr4 = [1, 2, 3, 4, 5, 6];
+//Cách 1
+// let arr4Reverse = arr4.sort(function(a,b){return b-a})
+// console.log(arr4Reverse)
+
+//Cách 2
+//  function soSanh(a,b){return b-a};
+//  let arr4Reverse= arr4.sort(soSanh)
+//  console.log(arr4Reverse)
 
 
 // Filter out even numbers from an array.
@@ -32,6 +43,7 @@ const arr6 = [1, -3, 99, 120, 50, 15];
 // }
 // console.log(min);
 
+
 //Tính max
 // let max = arr6[0]
 // for(let i=0; i<arr6.length;i++){
@@ -49,6 +61,8 @@ const arr8 = [2, 4, 1, 9, 0];
 //     return n*n
 // })
 // console.log(maparr9);
-// arr9.forEach(function(n){
-//     console.log(n);
-// })
+
+
+
+
+ 

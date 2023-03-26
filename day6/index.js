@@ -53,5 +53,4 @@
 // Giải thích tại sao x && !y lại cho ra kết qủa true
 
 
-
-
+ 
