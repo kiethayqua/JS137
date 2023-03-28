@@ -96,3 +96,9 @@ let sortAgeDevelop= developers.sort(function(a,b){
     return a.age - b.age;
 })
 console.log(sortAgeDevelop)
+
+//câu 9
+let sortKillDevelop= developers.sort(function(a,b){
+    return a.skills.length - b.skills.length;
+})
+console.log(sortKillDevelop)
