@@ -92,13 +92,23 @@ console.log(totalAgeDevelopers)
 
 //Câu 2
 
-let sortAgeDevelop= developers.sort(function(a,b){
-    return a.age - b.age;
-})
-console.log(sortAgeDevelop)
+// let sortAgeDevelop= developers.sort(function(a,b){
+//     return a.age - b.age
+// })
+// console.log(sortAgeDevelop)
 
-//câu 9
-let sortKillDevelop= developers.sort(function(a,b){
-    return a.skills.length - b.skills.length;
-})
-console.log(sortKillDevelop)
+// //câu 9
+// let sortKillDevelop= developers.sort(function(a,b){
+//     return a.skills.length - b.skills.length;
+// })
+// console.log(sortKillDevelop)
+
+// Câu 6
+let maxLength = developers[5].skills.length;
+function maxkillDev(index){
+    // console.log(typeof maxLength);
+    if(maxLength<index.skills.length){maxLength=index};
+    console.log(maxLength);
+}
+
+let maxSkill = developers.forEach(maxkillDev);
