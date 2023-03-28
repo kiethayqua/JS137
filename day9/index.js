@@ -126,3 +126,13 @@ const developers = [
 
 //     - 9/ Viết function sắp xếp thứ tự developer có nhiều skill nhất -> ít nhất
 // console.log(developers.sort(function(a,b){return b['skills'].length-a['skills'].length;}));
+
+//     - 10/ Viết function trả về 1 object có dạng 
+const devMale = (dev) => {
+    return dev['gender'] == "male";
+}
+const devFemale = (dev) => {
+    return dev['gender'] == "female";
+}
+console.log(developers.filter(devMale));
+console.log(developers.filter(devFemale));
