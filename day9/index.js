@@ -121,3 +121,10 @@ function developerSkillJs (index){
 }
 let deveSkillJS = developers.filter(developerSkillJs);
 console.log(deveSkillJS);
+
+//Câu 8
+function maleJS(index){
+    return index.gender =='male' && index.skills.includes('Js');
+}
+let maleDevSkillJs = developers.filter(maleJS);
+console.log(maleDevSkillJs);
