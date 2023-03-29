@@ -62,7 +62,18 @@ const developers = [
 ];
 
 // 1/ Viết function tìm ra developer lớn tuổi nhất
-function maxAge ()
+function maxAge_developers (name, age) {
+    this.name = name;
+    this.age = age;
+    console.log(`Developers lớn tuổi nhất: ${name}, ${age}`)
+}
+
+const maxAge_developers = developers [0] {
+   if (maxAge_developers.age)
+   
+
+
+
 // 2/ Viết function trả về danh sách developer đã được sắp xếp theo tuổi từ thấp đến cao
 Array.sort()
 
