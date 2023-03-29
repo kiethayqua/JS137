@@ -64,11 +64,11 @@ const developers = [
 
 //Câu 1
 
-let ageDeveloper = developers[0].age
+let ageDeveloper = developers[0]
  function maxAge (){
     for(let y=0;y<developers.length;y++){
 
-    if(developers[y].age>ageDeveloper){
+    if(developers[y].age>ageDeveloper.age){
         ageDeveloper=developers[y] ;
  }
 } return ageDeveloper;
@@ -104,11 +104,11 @@ console.log(totalAgeDevelopers)
 // console.log(sortKillDevelop)
 
 // Câu 6
-let maxLength = developers[5].skills.length;
-function maxkillDev(index){
-    // console.log(typeof maxLength);
-    if(maxLength<index.skills.length){maxLength=index};
-    console.log(maxLength);
-}
-
-let maxSkill = developers.forEach(maxkillDev);
+let currrentLength = developers[0];
+function developerskill(index){
+    if(currrentLength.skills.length<index.skills.length){
+        currrentLength=index;
+    };
+console.log(currrentLength);
+};
+let maxSkillDev = developers.forEach(developerskill)
