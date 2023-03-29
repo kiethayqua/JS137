@@ -61,3 +61,66 @@ const developers = [
         skills: ['Assembly', 'C', 'C++']
     }
 ];
+
+//Câu 1:
+
+// function maxAgeDev(developers) {
+//     const maxAge = developers.reduce((pre, cur) => pre.age > cur.age ? pre : cur);
+//     console.log(maxAge);
+// };
+// maxAgeDev(developers);
+
+
+//Câu 2:
+
+// function sortedDevelopers(developers){
+//     const sortAge = developers.sort((a, b) => a.age - b.age);
+//     console.log(sortAge);
+// };
+// sortedDevelopers(developers);
+
+
+//Câu 3:
+
+// function findMaleDevelopers(developers){
+//     const maleDevelopers = developers.filter(dev => dev.gender === 'male');
+//     console.log(maleDevelopers);
+// };
+// findMaleDevelopers(developers);
+
+
+//Câu 4:
+
+// function sumAgeDeveloper(developers) {
+//     const sumAge = developers.reduce((pre, cur) => pre + cur.age, 0);
+//     console.log(sumAge);
+// };
+// sumAgeDeveloper(developers);
+
+
+//Câu 5:
+// const allSkill = [];
+// function getAllSkill(developers) {
+//     developers.forEach(dev => {
+//         dev.skills.forEach(skill => {
+//             if(!allSkill.includes(skill)){
+//                 allSkill.push(skill);
+//             }
+//         });
+//     });
+//     console.log(allSkill)
+// };
+// getAllSkill(developers);
+
+//Câu 6:
+function mostSkillDev(developers){
+    const mostSkill = developers
+}
+
+//Câu 7:
+
+//Câu 8:
+
+//Câu 9:
+
+//Câu 10:
