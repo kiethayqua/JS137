@@ -104,7 +104,7 @@ console.log(totalAgeDevelopers)
 // console.log(sortKillDevelop)
 
 // Câu 6
-let currrentLength = developers[0];
+let currrentLength = developers[2];
 function developerskill(index){
     if(currrentLength.skills.length<index.skills.length){
         currrentLength=index;
@@ -112,3 +112,12 @@ function developerskill(index){
 console.log(currrentLength);
 };
 let maxSkillDev = developers.forEach(developerskill)
+
+
+
+//Câu 7 
+function developerSkillJs (index){
+    return index.skills.includes('JS');
+}
+let deveSkillJS = developers.filter(developerSkillJs);
+console.log(deveSkillJS);
