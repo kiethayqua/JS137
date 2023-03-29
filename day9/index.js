@@ -113,10 +113,11 @@ const developers = [
 // getAllSkill(developers);
 
 //Câu 6:
-function mostSkillDev(developers){
-    const mostSkill = developers
-}
-
+// function mostSkillDev(developers){
+//     const mostSkill = developers.reduce((a, b) => a.skills.length > b.skills.length ? a : b);
+//     console.log(mostSkill);
+// };
+// mostSkillDev(developers);
 //Câu 7:
 
 //Câu 8:
