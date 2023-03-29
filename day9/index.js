@@ -4,7 +4,7 @@
     - 2/ Viết function trả về danh sách developer đã được sắp xếp theo tuổi từ thấp đến cao
     - 3/ Viết function tìm ra những developer nam
     - 4/ Viết function tính tổng tuổi của tất cả developer
-    - 5/ Viết function tổng hợp tất cả các skills của tất cả developers trong mảng  !!!!Chưa làm
+    - 5/ Viết function tổng hợp tất cả các skills của tất cả developers trong mảng 
     - 6/ Viết function tìm ra developer có nhiều skills nhất
     - 7/ Viết function tìm ra những developer nào có skill là JS .includes
     - 8/ Viết function tìm ra những developer có gender là male và có skill JS
@@ -60,21 +60,23 @@ const developers = [
 ];
 
 function findOldest(arr) {
-    let oldest = arr[0];
+    let oldestDevs = [];
     let maxAge = arr[0].age;
 
     for (let i = 1; i < arr.length; i++)
-    if (arr[i].age > maxAge){
-     maxAge = arr[i].age;
-     oldest = arr[i];
-    }
+        if (arr[i].age > maxAge)
+        maxAge = arr[i].age;
+    
+    for (let i = 0; i < arr.length; i++)
+        if (arr[i].age === maxAge)
+        oldestDevs.push(arr[i]);
 
-    return oldest;
+    return oldestDevs;
 }
 
 function youngToOld(arr) {
     for (let i = arr.length - 1; i > 0; i--)
-        for (let j = 0; j < i; j++)                   // Tại sao điều kiện dừng (j < i - 1) ==> Sai?
+        for (let j = 0; j < i; j++)                 
         if (arr[j].age > arr[j+1].age){
             tmp = arr[j+1];
             arr[j+1] = arr[j];
@@ -103,17 +105,19 @@ function sumAgeDev(arr){
     return sum;
 }
 
-function mostSkillsDev(arr){
+function mostSkillsDevs(arr){
     let skills = arr[0].skills.length;
-    let dev = arr[0];
+    let devs = [];
 
     for (let i = 0; i < arr.length; i++)
-    if (arr[i].skills.length > skills){
-    skills = arr[i].length
-    dev = arr[i];
-    }
+        if (arr[i].skills.length > skills)
+        skills = arr[i].length;
+    
+    for (let i = 0; i < arr.length; i++)
+        if (arr[i].length === skills)
+        devs.push(arr[i]);
 
-    return dev;
+    return devs;
 }
 
 function javascriptDevs(arr){
