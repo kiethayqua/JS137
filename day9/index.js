@@ -66,39 +66,52 @@ const developers = [
 
 // function maxAgeDev(developers) {
 //     const maxAge = developers.reduce((pre, cur) => pre.age > cur.age ? pre : cur);
-//     console.log(maxAge);
+//     return maxAge;
 // };
-// maxAgeDev(developers);
+// console.log(maxAgeDev(developers));
+
+//sửa bài tập
+// function findMaxAgedeveloper(developers = []){
+//     if(!Array.isArray(developers) || !developers.length) return;
+
+//     let maxAgeDeveloper = developers[0];
+//     developers.forEach((developer) => {
+//         if(developer.age > maxAgeDeveloper.age) maxAgeDeveloper = developer;
+//     });
+//     return maxAgeDeveloper;
+// }
+// console.log(findMaxAgedeveloper(developers))
 
 
 //Câu 2:
 
 // function sortedDevelopers(developers){
 //     const sortAge = developers.sort((a, b) => a.age - b.age);
-//     console.log(sortAge);
+//     return sortAge;
 // };
-// sortedDevelopers(developers);
+// console.log(sortedDevelopers(developers));
 
 
 //Câu 3:
 
 // function findMaleDevelopers(developers){
 //     const maleDevelopers = developers.filter(dev => dev.gender === 'male');
-//     console.log(maleDevelopers);
+//     return maleDevelopers;
 // };
-// findMaleDevelopers(developers);
+// console.log(findMaleDevelopers(developers));
 
 
 //Câu 4:
 
 // function sumAgeDeveloper(developers) {
 //     const sumAge = developers.reduce((pre, cur) => pre + cur.age, 0);
-//     console.log(sumAge);
+//     return sumAge;
 // };
-// sumAgeDeveloper(developers);
+// console.log(sumAgeDeveloper(developers));
 
 
 //Câu 5:
+
 // const allSkill = [];
 // function getAllSkill(developers) {
 //     developers.forEach(dev => {
@@ -108,20 +121,65 @@ const developers = [
 //             }
 //         });
 //     });
-//     console.log(allSkill)
+//     return allSkill
 // };
-// getAllSkill(developers);
+// console.log(getAllSkill(developers));
+
+//Sửa bài tập:
+// function getAllSkills(developers = []) {
+//     if(!Array.isArray(developers) || !developers.length) return;
+
+//     const allSkills = developers.reduce((skills, developer) => {
+//         return skills.concat(developer.skills);
+//     }, []);
+
+//     return new Set(allSkills);
+// }
+// console.log(getAllSkills(developers));
 
 //Câu 6:
+
 // function mostSkillDev(developers){
 //     const mostSkill = developers.reduce((a, b) => a.skills.length > b.skills.length ? a : b);
-//     console.log(mostSkill);
+//     return mostSkill;
 // };
-// mostSkillDev(developers);
+// console.log(mostSkillDev(developers));
+
 //Câu 7:
+// function jsOnlyDeveloper(developers) {
+//     if(!Array.isArray(developers) || !developers.length) return;
 
+//     return developers.filter((developer) => developer.skills.includes('JS'));
+// }
+// console.log(jsOnlyDeveloper(developers));
 //Câu 8:
+// function jsMaleDeveloper(developers) {
+//     if(!Array.isArray(developers) || !developers.length) return;
 
+//     return developers.filter((developer) => developer.skills.includes('JS') && developer.gender === 'male');
+// }
+// console.log(jsMaleDeveloper(developers));
 //Câu 9:
+function filteredSkillDeveloper(developers) {
+    if(!Array.isArray(developers) || !developers.length) return;
 
+    return developers.sort((a, b) => b.skills.length - a.skills.length);
+}
+console.log(filteredSkillDeveloper(developers));
 //Câu 10:
+// function getGenderFiltered(developers = []) {
+//     if(!Array.isArray(developers) || !developers.length) return;
+
+//     return developers.reduce((object, developer) => {
+//         if(developer.gender === 'male') {
+//             object.males.push(developer);
+//         } else {
+//             object.females.push(developer);
+//         }
+//         return object;
+//     },{
+//         males: [],
+//         females: []
+//     });
+// }
+// console.log(getGenderFiltered(developers));
