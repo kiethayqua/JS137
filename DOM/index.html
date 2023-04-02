@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: repeat(6, auto);
+            width: 1200px;
+            margin: auto;
+            gap: 10px;
+        }
+
+        .card {
+            border: 1px solid #aaa;
+            padding: 8px;
+        }
+
+        .card-image {
+            width: 100%;
+        }
+
+        .card-title {
+            line-height: 14px;
+            font-size: .75rem;
+            word-wrap: break-word;
+            white-space: normal;
+            overflow: hidden;
+            display: -webkit-box;
+            text-overflow: ellipsis;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            margin-bottom: 32px;
+        }
+
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card-bottom-left {
+            color: #ee4d2d;
+        }
+
+        .card-bottom-right {
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
